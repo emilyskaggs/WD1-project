@@ -1,33 +1,40 @@
-h1 h2 h3 h4 {
+
+
+
+
+h1, h2, h3, h4{
     font-family: 'Quantico', sans-serif;
 }
 
 h1{
-    text-align: center;
+    text-align: left;
+    font-size: 18;
 }
 
 header {
+    display: flex;
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url("/coffee-hero-bg.jpg");
     min-height: 100%;
     padding: 10%;
 }
-.logo-image{
-float: center-left;
+    .logo-image{
+    float: left;
+    size-adjust: -10%
+    ;
 }
 ul {
+    display: flex;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-  }
-  
-  li {
-    float: right;
+    font-family: 'Quantico', sans-serif;
   }
   
   li a {
+    float: right;
     display: flex;
     color: #45230f;
     text-align: center;
@@ -36,4 +43,4 @@ ul {
   }
   
   li a:hover {
-    background-color: #111111;
+    background-color: #b98757;
