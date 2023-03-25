@@ -7,20 +7,23 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie-edge">
-        <title>Derby City Drip</title>
-        <link rel="stylesheet" href=".\css\style.css" >
+        <link href="css/normalize.css" rel="stylesheet">
+        <link href="css/small.css" rel="stylesheet">
+        <link href="css/medium.css" rel="stylesheet">
+        <link href="css/large.css" rel="stylesheet">
+        <title>Home|Derby City Drip</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Quantico:wght@700&display=swap" rel="stylesheet">
-    
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Quantico:wght@700&display=swap" rel="stylesheet">
     </head>
    
     <body>
         <header>
-           <div class="logo-image">
+           <div class=container>
+            <div id="logo-image">
                 <img src=".\logos\derbycitydrip-logo.png">
            </div>
-            <nav>
+            <nav class="navigation">
                 <ul>
                     <li><a href="#"">HOME</a></li>
                     <li><a href="#location">LOCATION</a></li>
@@ -28,23 +31,27 @@
                     <li><a href="#contact">CONTACT</a></li>
                 </ul>
             </nav>
-            <div class="hero">
-                <h1>EXPERIENCE THE BEST CUP IN TOWN</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur minima officiis dignissimos, quasi dolorum rerum, dolores quod deleniti hic nesciunt a dolore, iusto totam nihil! Blanditiis deleniti dolorum quibusdam libero?</p>  
+           </div>
+           <section id="hero">
+           <div class="container">
+                <h1 id="hero-heading">EXPERIENCE THE BEST CUP IN TOWN</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing <br> 
+                    elit. Consectetur minima officiis dignissimos,<br> 
+                    quasi dolorum rerum, dolores quod deleniti </p>  
                 <button class="veiw-menu">
                     <a href=".\index.html">VEIW MENU</a>
                </button>
             </div>
-        </header>
-
+        </section>
+    </header>
         <section id="about" class="container">
                 <h1>OUR FINE ROASTED COFFEES</h1>
                 <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus corrupti voluptatibus atque dolore numquam distinctio in vel blanditiis ut? Quaerat inventore ducimus fuga iusto nostrum, temporibus repellat ipsum ipsam tempora!</P>
         </section>
 
-        <section class="location contact hours">
-            <div>
-              <h2 id="location">LOCATION</h2>
+        <section class="container">
+            <div id="location">
+              <h2>LOCATION</h2>
               <p>1234 W MAIN ST<br>
               LOUISVILLE, KY 40213</P>
             </div>
@@ -52,10 +59,9 @@
                 <p>P:502-555-5555<br>
                 E:hello@derbycitydrips.com</P>
             </div>
-            <div class="map">
-
+            <div id=map>
             </div>
-            <div>
+            <div id="hours">
                 <H2>HOURS</H2>
                 <p>These are our current hours. Unforseen circumstances may cause these to change.</p>
                 <ol>
@@ -72,145 +78,164 @@
        
         <main class="menu">
             
-            <section class="coffee-menu">
+            <section class="menu" id="coffee">
                 <div class="ab-coff">
                     <h2 id="menu">COFFEE</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci eligendi, expedita in reiciendis odit similique maxime autem earum, minima totam corporis cum consectetur repellendus quae aspernatur unde vero praesentium. Facilis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure accusamus harum magni temporibus tempore quia possimus exercitationem nemo unde officiis, fugiat quas fuga dolor, sequi iste dignissimos maiores nostrum asperiores!</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci eligendi, expedita in reiciendis odit similique maxime autem earum, minima totam corporis cum consectetur repellendus quae aspernatur unde vero praesentium!</p>
                 </div>
                
                 <dl class="menu-items">
                     <dt><h3>COFFEE OF THE DAY</h3></dt>
                     <dd class="price">4.99</dd>
-                    <dd class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore earum quo quae laboriosam quod recusandae veritatis asperiores repellendus, deserunt dicta magni aperiam, nemo maiores ipsam cum debitis maxime consequatur libero!</dd>
+                    <dd class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore earum quo.</dd>
                     <dt><h3>CAFE AU LAIT</h3></dt>
                     <dd class="price">3.99</dd>
-                    <dd class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore earum quo quae laboriosam quod recusandae veritatis asperiores repellendus, deserunt dicta magni aperiam, nemo maiores ipsam cum debitis maxime consequatur libero!</dd>
+                    <dd class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore earum quo.</dd>
                     <dt><h3>RED EYE</h3></dt>
                     <dd class="price">6.99</dd>
-                    <dd class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore earum quo quae laboriosam quod recusandae veritatis asperiores repellendus, deserunt dicta magni aperiam, nemo maiores ipsam cum debitis maxime consequatur libero!</dd>
+                    <dd class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore earum quo.</dd>
                     <dt><h3>COLD BREW ICED</h3></dt>
                     <dd class="price">4.99</dd>
-                    <dd class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore earum quo quae laboriosam quod recusandae veritatis asperiores repellendus, deserunt dicta magni aperiam, nemo maiores ipsam cum debitis maxime consequatur libero!</dd>
+                    <dd class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore earum quo.</dd>
                     <dt><h3>FAIR TRADE MOCHA<h3></h3></dt>
                     <dd class="price">4.99</dd>
-                    <dd class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore earum quo quae laboriosam quod recusandae veritatis asperiores repellendus, deserunt dicta magni aperiam, nemo maiores ipsam cum debitis maxime consequatur libero!</dd>
+                    <dd class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore earum quo.</dd>
                     <dt><h3>BEE KEEPER</h3></dt>
                     <dd class="price">4.99</dd>
-                    <dd class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore earum quo quae laboriosam quod recusandae veritatis asperiores repellendus, deserunt dicta magni aperiam, nemo maiores ipsam cum debitis maxime consequatur libero!</dd>
+                    <dd class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore earum quo.</dd>
                     <dt><h3>MOCHA</h3></dt>
                     <dd class="price">3.99</dd>
-                    <dd class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore earum quo quae laboriosam quod recusandae veritatis asperiores repellendus, deserunt dicta magni aperiam, nemo maiores ipsam cum debitis maxime consequatur libero!</dd>
+                    <dd class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore earum quo.</dd>
                     <dt><h3>ESPRESSO</h3></dt>
                     <dd class="price">4.99</dd>
-                    <dd class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore earum quo quae laboriosam quod recusandae veritatis asperiores repellendus, deserunt dicta magni aperiam, nemo maiores ipsam cum debitis maxime consequatur libero!</dd>
+                    <dd class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore earum quo.</dd>
                     <dt><h3>AMERICANO</h3></dt>
                     <dd class="price">3.99</dd>
-                    <dd class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore earum quo quae laboriosam quod recusandae veritatis asperiores repellendus, deserunt dicta magni aperiam, nemo maiores ipsam cum debitis maxime consequatur libero!</dd>
+                    <dd class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore earum quo.</dd>
                     <dt><h3>MACCHIATO</h3></dt>
                     <dd class="price">4.99</dd>
-                    <dd class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore earum quo quae laboriosam quod recusandae veritatis asperiores repellendus, deserunt dicta magni aperiam, nemo maiores ipsam cum debitis maxime consequatur libero!</dd>
+                    <dd class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore earum quo.</dd>
                     <dt><h3>PANNA</h3></dt>
                     <dd class="price">3.99</dd>
-                    <dd class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore earum quo quae laboriosam quod recusandae veritatis asperiores repellendus, deserunt dicta magni aperiam, nemo maiores ipsam cum debitis maxime consequatur libero!</dd>
+                    <dd class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore earum quo.</dd>
                     <dt><h3>CAPPUCCINO</h3></dt>
                     <dd class="price">4.99</dd>
-                    <dd class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore earum quo quae laboriosam quod recusandae veritatis asperiores repellendus, deserunt dicta magni aperiam, nemo maiores ipsam cum debitis maxime consequatur libero!</dd>
+                    <dd class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore earum quo.</dd>
                     <dt><h3>LATTE</h3></dt>
                     <dd class="price">4.99</dd>
-                    <dd class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore earum quo quae laboriosam quod recusandae veritatis asperiores repellendus, deserunt dicta magni aperiam, nemo maiores ipsam cum debitis maxime consequatur libero!</dd>
+                    <dd class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore earum quo.</dd>
                     <dt><h3>HOT CHOCOLATE</h3></dt>
                     <dd class="price">4.99</dd>
-                    <dd class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore earum quo quae laboriosam quod recusandae veritatis asperiores repellendus, deserunt dicta magni aperiam, nemo maiores ipsam cum debitis maxime consequatur libero!</dd>
+                    <dd class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore earum quo.</dd>
                     <dt><h3>COFFEE OF THE DAY</h3></dt>
                     <dd class="price">4.99</dd>
-                    <dd class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore earum quo quae laboriosam quod recusandae veritatis asperiores repellendus, deserunt dicta magni aperiam, nemo maiores ipsam cum debitis maxime consequatur libero!</dd>
+                    <dd class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore earum quo.</dd>
                 </dl>
             </section>
             
-            <section class="teas-menu">
-                <div class="ab-teas">
+            <section class="menu" id="teas">
+                <div id="ab-teas">
                     <h2>TEAS</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci eligendi, expedita in reiciendis odit similique maxime autem earum, minima totam corporis cum consectetur repellendus quae aspernatur unde vero praesentium. Facilis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure accusamus harum magni temporibus tempore quia possimus exercitationem nemo unde officiis, fugiat quas fuga dolor, sequi iste dignissimos maiores nostrum asperiores!</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci eligendi, expedita in reiciendis odit similique maxime autem earum, minima totam corporis cum consectetur repellendus quae aspernatur unde vero praesentium!</p>
                 </div>
                 <dl class="menu-items">
                     <dt><h3>LOOSE-LEAF TEA</h3></dt>
                     <dd class="price">4.99</dd>
-                    <dd class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore earum quo quae laboriosam quod recusandae veritatis asperiores repellendus, deserunt dicta magni aperiam, nemo maiores ipsam cum debitis maxime consequatur libero!</dd>
+                    <dd class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore earum quo.</dd>
                     <dt><h3>TEA AU LAIT</h3></dt>
                     <dd class="price">3.99</dd>
-                    <dd class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore earum quo quae laboriosam quod recusandae veritatis asperiores repellendus, deserunt dicta magni aperiam, nemo maiores ipsam cum debitis maxime consequatur libero!</dd>
+                    <dd class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore earum quo.</dd>
                     <dt><h3>ICED</h3></dt>
                     <dd class="price">4.99</dd>
-                    <dd class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore earum quo quae laboriosam quod recusandae veritatis asperiores repellendus, deserunt dicta magni aperiam, nemo maiores ipsam cum debitis maxime consequatur libero!</dd>
+                    <dd class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore earum quo.</dd>
                     <dt><h3>MATCHA LATTE</h3></dt>
                     <dd class="price">4.99</dd>
-                    <dd class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore earum quo quae laboriosam quod recusandae veritatis asperiores repellendus, deserunt dicta magni aperiam, nemo maiores ipsam cum debitis maxime consequatur libero!</dd>
+                    <dd class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore earum quo.</dd>
                 </dl>
             </section>
            
-            <section class="snax-menu">
+            <section class="menu" id="snax-menu">
                 <div class="ab-snax">
                     <h2>PASTRIES AND SNACKS</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci eligendi, expedita in reiciendis odit similique maxime autem earum, minima totam corporis cum consectetur repellendus quae aspernatur unde vero praesentium. Facilis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure accusamus harum magni temporibus tempore quia possimus exercitationem nemo unde officiis, fugiat quas fuga dolor, sequi iste dignissimos maiores nostrum asperiores!</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci eligendi, expedita in reiciendis odit similique maxime autem earum, minima totam corporis cum consectetur repellendus quae aspernatur unde vero praesentium!</p>
                 </div>
                 <dl class="menu-items">
-                    <dt><h3>DONUT</h3></dt>
-                    <dd class="price">1.99</dd>
-                    <dd class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore earum quo quae laboriosam quod recusandae veritatis asperiores repellendus, deserunt dicta magni aperiam, nemo maiores ipsam cum debitis maxime consequatur libero!</dd>
-                    <dt><h3>COOKIE-3PACK</h3></dt>
-                    <dd class="price">3.99</dd>
-                    <dd class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore earum quo quae laboriosam quod recusandae veritatis asperiores repellendus, deserunt dicta magni aperiam, nemo maiores ipsam cum debitis maxime consequatur libero!</dd>
-                    <dt><h3>SCONE</h3></dt>
-                    <dd class="price">2.99</dd>
-                    <dd class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore earum quo quae laboriosam quod recusandae veritatis asperiores repellendus, deserunt dicta magni aperiam, nemo maiores ipsam cum debitis maxime consequatur libero!</dd>
-                    <dt><h3>BROWNIE</h3></dt>
-                    <dd class="price">2.99</dd>
-                    <dd class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore earum quo quae laboriosam quod recusandae veritatis asperiores repellendus, deserunt dicta magni aperiam, nemo maiores ipsam cum debitis maxime consequatur libero!</dd>
+                    <div class="heading">
+                        <dt><h3 class="item">DONUT</h3></dt>
+                        <dd><h3 class="price">1.99</h3></dd>
+                    </div>
+                    <div class="description">
+                        <dd>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore earum quo.</dd>
+                    </div>
+                    <div>
+                        <dt><h3>COOKIE 3-PACK</h3></dt>
+                        <dd class="price"><h3>3.99</h3></dd>
+                    </div>
+                    <div>
+                        <dd class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore earum quo.</dd>
+                    </div>
+                    <div>
+                        <dt><h3>SCONE</h3></dt>
+                        <dd class="price"><h3>2.99</h3></dd>
+                        <dd class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore earum quo.</dd>
+                    </div>
+                    <div>
+                        <dt><h3>BROWNIE</h3></dt>
+                        <dd class="price"><h3>2.99</h3></dd>
+                        <dd class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore earum quo.</dd>
+                    </div>
                 </dl>
-            </section>
-        </main>
-
-        <div>
-            <h2>JOIN THE DCD COFFEE CLUB!</h2>
-            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim tenetur rerum minus, odio architecto aliquid id voluptatem quis perferendis voluptate delectus blanditiis natus, labore consequatur voluptas ab veniam. Nam, exercitationem.</P>
-        </div>
-        <form action=".php" class="dcd-form">
-            <div class="dcd-form">
-                <label for="name">NAME:</label>
-                <input type="text" id="name" name="name" required>
-            <div class="dcd-form">
-                <label for="email">EMAIL:</label>
-                <input type="text" id="email" name="email" required>
+            </section>  
+            <div class="dcd-container">
+                <section id="dcd">
+                    <h1>JOIN THE DCD COFFEE CLUB!</h1>
+                    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim tenetur rerum minus, odio architecto aliquid id voluptatem quis perferendis voluptate delectus blanditiis!</P>
+                </section>
+                <form action=".php" class="dcd form">
+                    <div class="dcd-form">
+                        <label for="name">NAME:</label>
+                        <input type="text" id="name" name="name" placeholder="JOHN DOE" required>
+                    </div>
+                        <div class="dcd-form">
+                        <label for="email">EMAIL:</label>
+                        <input type="text" id="email" name="email" placeholder="JOHNDOE@GMAIL.COM" required>
+                    </div>
+                    <div class="dcd-form">
+                        <input type="submit" value="JOIN NOW">
+                    </div>
+                </form>  
+            </div> 
+        </main>   
+        <footer>
+            <div class="row footer1">
+                <section class="column s-12 m-12 l-4" id="footer-location">
+                    <h1>LOCATION</h1>
+                    <p>1234 W MAIN ST<br>
+                    LOUISVILLE, KY 40213<br>              
+                    <br>
+                    P:502-555-5555<br>
+                    E:hello@derbycitydrips.com</P>
+                </section>
+                <section class="column s-12 m-12 l-4" id="footer-sitemap">
+                    <h1>SITEMAP</h1>
+                        <ul>
+                            <li><a href="#"">HOME</a></li>
+                            <li><a href="#location">LOCATION</a></li>
+                            <li><a href="#menu">MENU</a></li>
+                            <li><a href="#contact">CONTACT</a></li>
+                        </ul>
+                </section>
+                <section class="column s-12 m-12 l-4" id="footer-socials">
+                    <h1>SOCIALS</h1>
+                    <p>Please join us for all the latest announcments via our social netwok</p>
+                </section>
             </div>
-            <div class="dcd-form">
-                <input type="submit" value="JOIN NOW">
-        </form>    
+            <div class="row footer2">
+                <section class="column s-12 m-12 l-12" id="footer-copyright">
+                    <p>COPYRIGHT 2021 DERBY CITY DRIP,LLC<br>
+                    PRIVACY POLICY</p>
+                </section>
+            </div>
+        </footer>
     </body>
-    <footer>
-        <div class="footer-location">
-            <h3>LOCATION</h3>
-            <p>1234 W MAIN ST<br>
-            LOUISVILLE, KY 40213<br>              
-            <div id="phone-email">
-            P:502-555-5555<br>
-            E:hello@derbycitydrips.com</P>
-        </div>
-        <div class="footer-sitemap">
-            <h3>SITEMAP</h3>
-            <nav>
-                <ul>
-                    <li><a href="#"">HOME</a></li>
-                    <li><a href="#location">LOCATION</a></li>
-                    <li><a href="#menu">MENU</a></li>
-                    <li><a href="#contact">CONTACT</a></li>
-                </ul>
-            </nav>
-        </div>
-        <div class="footer-socials">
-            <h3>SOCIALS</h3>
-            <p>Please join us for all the latest announcments via our social</p>
-        </div>
-
-        </div>
-    </footer>
 </html>
